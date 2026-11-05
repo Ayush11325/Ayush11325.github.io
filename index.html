@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AK-BOT | Ayush Kumar · AI Portfolio</title>
+    <meta name="description"
+        content="Ayush Kumar, software engineer and MCA (AI & ML) student from Bhopal. Python, OpenCV, Flask, MySQL. Interactive portfolio with AI chatbot.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="boot">
+        <div class="boot-box">
+            <div class="boot-title">AK-BOT SYSTEM</div>
+            <div class="boot-log" id="bootLog"></div>
+            <div class="boot-bar"><span id="bootBar"></span></div>
+        </div>
+    </div>
+
+    <div class="aura a"></div>
+    <div class="aura b"></div>
+    <div class="grid-bg"></div>
+    <div class="scan"></div>
+
+    <nav class="nav">
+        <a href="#top" class="logo">AK<span>//</span>BOT</a>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="icon-btn" id="soundBtn" aria-pressed="false" aria-label="Toggle sound">♪</button>
+            <button class="nav-chat" id="openChat">ASK AK-BOT</button>
+        </div>
+    </nav>
+
+    <main id="top">
+
+        <section class="hero">
+            <div>
+                <p class="status"><span class="dot"></span> SYSTEM ONLINE · OPEN TO WORK</p>
+                <h1 class="glitch" data-text="AYUSH KUMAR">AYUSH KUMAR</h1>
+                <p class="role"><span id="typed"></span><span class="cursor">|</span></p>
+                <p class="lead">MCA student in AI &amp; ML at LNCT University, Bhopal. I build Python systems that
+                    connect cameras, databases and networks, from face-recognition attendance to automated reporting.
+                </p>
+                <div class="cta-row">
+                    <a href="#projects" class="btn primary">VIEW PROJECTS</a>
+                    <a href="#contact" class="btn">CONTACT ME</a>
+                    <button class="btn ghost" id="openChat2">TALK TO AK-BOT</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div id="scene" aria-label="3D robot head"></div>
+                <div class="hud hud-tl">CORE: ACTIVE</div>
+                <div class="hud hud-br">MODE: PORTFOLIO</div>
+            </div>
+        </section>
+
+        <section id="about" class="block reveal">
+            <h2 class="sec-title"><span>01</span> ABOUT</h2>
+            <div class="about-grid">
+                <div class="card about-card">
+                    <img src="photo.jpg" alt="Ayush Kumar" onerror="this.style.display='none'">
+                    <div class="id-tag">
+                        <div>NAME: AYUSH KUMAR</div>
+                        <div>ROLE: SOFTWARE ENGINEER</div>
+                        <div>LOCATION: BHOPAL, INDIA</div>
+                        <div>STATUS: OPEN TO WORK</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>I'm studying MCA in AI &amp; ML at LNCT University (CGPA 8.3), after a BCA with 7.8 CGPA. My base
+                        is object-oriented programming, data structures, algorithms and relational databases.</p>
+                    <p>I enjoy software that touches the real world: a live video feed, a messy spreadsheet, a slow
+                        network.</p>
+                    <div class="stat-row">
+                        <div><b>8.3</b><span>MCA CGPA</span></div>
+                        <div><b>3</b><span>Virtual internships</span></div>
+                        <div><b>3rd</b><span>Hackathon place</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="block reveal">
+            <h2 class="sec-title"><span>02</span> SKILL MODULES</h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                    <h3>LANGUAGES</h3>
+                    <div class="chips">
+                        <span>Python</span><span>Java</span><span>C</span><span>C++</span><span>SQL</span><span>HTML</span><span>CSS</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>FRAMEWORKS</h3>
+                    <div class="chips">
+                        <span>Django</span><span>Flask</span><span>OpenCV</span><span>Tkinter</span><span>MySQL
+                            Connector</span><span>OpenPyXL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>CORE CS</h3>
+                    <div class="chips"><span>OOP</span><span>DSA</span><span>Relational DBMS</span><span>REST
+                            APIs</span><span>Agile</span><span>SDLC</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>TOOLS</h3>
+                    <div class="chips"><span>Git</span><span>GitHub</span><span>MySQL</span><span>VS
+                            Code</span><span>IntelliJ IDEA</span><span>Excel</span><span>Linux</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>CLOUD</h3>
+                    <div class="chips"><span>AWS Academy</span><span>Cloud Architecture</span><span>Generative AI</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <h3>NETWORKING</h3>
+                    <div class="chips"><span>Cisco Packet Tracer</span><span>IP Routing</span><span>Latency
+                            Diagnostics</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="block reveal">
+            <h2 class="sec-title"><span>03</span> PROJECTS</h2>
+            <div class="project-grid">
+                <article class="project tilt">
+                    <div class="p-num">P-01</div>
+                    <h3>Face Recognition Attendance System</h3>
+                    <p>Automated biometric pipeline that reads live video, detects faces and marks classroom attendance.
+                        Trained with OpenCV Haar cascades and saved to normalized MySQL tables.</p>
+                    <div class="chips"><span>Python</span><span>OpenCV</span><span>MySQL</span></div>
+                </article>
+                <article class="project tilt">
+                    <div class="p-num">P-02</div>
+                    <h3>Library Management System</h3>
+                    <p>Desktop app with full create, read, update and delete for a library catalog. Foreign keys and
+                        normalized tables prevent duplicate records.</p>
+                    <div class="chips"><span>Python</span><span>Tkinter</span><span>MySQL</span></div>
+                </article>
+                <article class="project tilt">
+                    <div class="p-num">P-03</div>
+                    <h3>File &amp; Data Dispatcher</h3>
+                    <p>Flask backend that parses dynamic Excel sheets and generates reports automatically, with error
+                        handling and logging for batch processing.</p>
+                    <div class="chips"><span>Python</span><span>Flask</span><span>OpenPyXL</span><span>MySQL</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="experience" class="block reveal">
+            <h2 class="sec-title"><span>04</span> EXPERIENCE LOG</h2>
+            <div class="timeline">
+                <div class="t-item">
+                    <div class="t-date">AUG 2026</div>
+                    <div class="t-body">
+                        <h3>Cisco-AICTE Virtual Internship</h3>
+                        <small>Software and Network Engineering Intern</small>
+                        <ul>
+                            <li>Wrote Python diagnostic scripts to inspect packet routing paths and find latency
+                                bottlenecks.</li>
+                            <li>Simulated enterprise topologies and validated IP routing in Cisco Packet Tracer.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-date">MAY 2026</div>
+                    <div class="t-body">
+                        <h3>ServiceNow (AICTE and SmartBridge)</h3>
+                        <small>Software Platform Intern</small>
+                        <ul>
+                            <li>Configured workflow automations and incident lifecycle tracking using Agile SDLC.</li>
+                            <li>Tested integrations and debugged execution scripts.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="t-item">
+                    <div class="t-date">JUN 2025</div>
+                    <div class="t-body">
+                        <h3>Deloitte Australia</h3>
+                        <small>Technology Job Simulation</small>
+                        <ul>
+                            <li>Designed dashboard concepts and wrote technical specifications for business intelligence
+                                reporting.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="block reveal contact">
+            <h2 class="sec-title" style="justify-content:center"><span>05</span> CONTACT</h2>
+            <p class="contact-lead">Open to internships and entry-level software roles. Let's build something.</p>
+            <div class="contact-row">
+                <span class="mail" id="em">ayush.lnct11325@gmail.com</span>
+                <button class="btn primary" id="copy">COPY EMAIL</button>
+            </div>
+            <div class="cta-row center">
+                <a class="btn" href="mailto:ayush.lnct11325@gmail.com">SEND EMAIL</a>
+                <a class="btn" href="https://github.com/Ayush11325" target="_blank" rel="noopener">GITHUB</a>
+                <a class="btn" href="https://www.linkedin.com/in/ayush11325/" target="_blank"
+                    rel="noopener">LINKEDIN</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="foot">© 2026 AYUSH KUMAR · AK-BOT v2.0 · BHOPAL, IN</footer>
+
+    <button class="bot-fab" id="botFab" aria-label="Open chatbot">AI</button>
+    <div class="bot" id="bot" hidden>
+        <div class="bot-head">
+            <div><b>AK-BOT</b><small>Ask me about Ayush</small></div>
+            <button id="botClose" aria-label="Close chat">×</button>
+        </div>
+        <div class="bot-msgs" id="botMsgs"></div>
+        <div class="bot-chips" id="botChips"></div>
+        <form class="bot-form" id="botForm" autocomplete="off">
+            <input id="botIn" placeholder="Type your question..." aria-label="Message">
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
